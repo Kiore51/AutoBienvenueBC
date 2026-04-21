@@ -15,7 +15,7 @@ namespace AutoBienvenueBC
         public override Version Version { get; } = new Version(1, 0, 0);
         public override Version RequiredApiVersion { get; } = new Version(LabApiProperties.CompiledVersion);
         public override LoadPriority Priority { get; } = LoadPriority.Medium;
-        public EventsHandler Events { get; } = new  EventsHandler();
+        public EventsHandler Events { get; } = new EventsHandler();
 
         public override void Enable()
         {
